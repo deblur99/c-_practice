@@ -207,9 +207,11 @@ inline int square(int x) {
 }
 
 void main_practice1() {
-    int x = square(10);
-    int y = SQUARE(10);
-    cout << x << " " << y << endl;
+    int a = 10;
+    int &b = a;
+    int *c = &a;
+
+    cout << &a << " " << &b << endl;
 
     return;
 }

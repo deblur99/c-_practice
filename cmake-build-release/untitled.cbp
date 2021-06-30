@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/Player.cpp">
+			<Option target="c++_practice"/>
+		</Unit>
+		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/Player.h">
+			<Option target="c++_practice"/>
+		</Unit>
 		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/main.cpp">
 			<Option target="c++_practice"/>
 		</Unit>
@@ -87,6 +93,12 @@
 			<Option target="c++_practice"/>
 		</Unit>
 		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/part1_practice.h">
+			<Option target="c++_practice"/>
+		</Unit>
+		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/part2_practice.cpp">
+			<Option target="c++_practice"/>
+		</Unit>
+		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/part2_practice.h">
 			<Option target="c++_practice"/>
 		</Unit>
 		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/CMakeLists.txt">

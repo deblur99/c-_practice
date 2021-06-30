@@ -141,6 +141,33 @@ c++_practice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/build
 .PHONY : c++_practice/fast
 
+Player.obj: Player.cpp.obj
+
+.PHONY : Player.obj
+
+# target to build an object file
+Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Player.cpp.obj
+.PHONY : Player.cpp.obj
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -195,6 +222,33 @@ part1_practice.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/part1_practice.cpp.s
 .PHONY : part1_practice.cpp.s
 
+part2_practice.obj: part2_practice.cpp.obj
+
+.PHONY : part2_practice.obj
+
+# target to build an object file
+part2_practice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/part2_practice.cpp.obj
+.PHONY : part2_practice.cpp.obj
+
+part2_practice.i: part2_practice.cpp.i
+
+.PHONY : part2_practice.i
+
+# target to preprocess a source file
+part2_practice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/part2_practice.cpp.i
+.PHONY : part2_practice.cpp.i
+
+part2_practice.s: part2_practice.cpp.s
+
+.PHONY : part2_practice.s
+
+# target to generate assembly for a file
+part2_practice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/part2_practice.cpp.s
+.PHONY : part2_practice.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -204,12 +258,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c++_practice
+	@echo ... Player.obj
+	@echo ... Player.i
+	@echo ... Player.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
 	@echo ... part1_practice.obj
 	@echo ... part1_practice.i
 	@echo ... part1_practice.s
+	@echo ... part2_practice.obj
+	@echo ... part2_practice.i
+	@echo ... part2_practice.s
 .PHONY : help
 
 
