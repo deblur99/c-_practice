@@ -80,25 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.cpp">
+		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/Ram.cpp">
 			<Option target="c++_practice"/>
 		</Unit>
-		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.h">
+		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/Ram.h">
 			<Option target="c++_practice"/>
 		</Unit>
 		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/main.cpp">
-			<Option target="c++_practice"/>
-		</Unit>
-		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/part1_practice.cpp">
-			<Option target="c++_practice"/>
-		</Unit>
-		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/part1_practice.h">
-			<Option target="c++_practice"/>
-		</Unit>
-		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/part2_practice.cpp">
-			<Option target="c++_practice"/>
-		</Unit>
-		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/part2_practice.h">
 			<Option target="c++_practice"/>
 		</Unit>
 		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/CMakeLists.txt">

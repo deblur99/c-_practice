@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj"
+  "CMakeFiles/c++_practice.dir/Ram.cpp.obj"
   "CMakeFiles/c++_practice.dir/main.cpp.obj"
-  "CMakeFiles/c++_practice.dir/part1_practice.cpp.obj"
-  "CMakeFiles/c++_practice.dir/part2_practice.cpp.obj"
   "c++_practice.exe"
   "c++_practice.exe.manifest"
   "c++_practice.pdb"

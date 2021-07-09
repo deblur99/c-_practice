@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.cpp
-eng_histogram.h
-C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.h
-
-C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.h
+C:/Users/deblu/CLionProjects/c++_practice/Ram.cpp
 iostream
 -
-fstream
+Ram.h
+C:/Users/deblu/CLionProjects/c++_practice/Ram.h
+
+C:/Users/deblu/CLionProjects/c++_practice/Ram.h
+
+C:/Users/deblu/CLionProjects/c++_practice/main.cpp
+iostream
 -
-array
--
-string
--
+Ram.h
+C:/Users/deblu/CLionProjects/c++_practice/Ram.h
 

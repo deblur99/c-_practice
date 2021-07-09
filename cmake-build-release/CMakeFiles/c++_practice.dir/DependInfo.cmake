@@ -4,10 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.cpp" "C:/Users/deblu/CLionProjects/c++_practice/cmake-build-release/CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj"
+  "C:/Users/deblu/CLionProjects/c++_practice/Ram.cpp" "C:/Users/deblu/CLionProjects/c++_practice/cmake-build-release/CMakeFiles/c++_practice.dir/Ram.cpp.obj"
   "C:/Users/deblu/CLionProjects/c++_practice/main.cpp" "C:/Users/deblu/CLionProjects/c++_practice/cmake-build-release/CMakeFiles/c++_practice.dir/main.cpp.obj"
-  "C:/Users/deblu/CLionProjects/c++_practice/part1_practice.cpp" "C:/Users/deblu/CLionProjects/c++_practice/cmake-build-release/CMakeFiles/c++_practice.dir/part1_practice.cpp.obj"
-  "C:/Users/deblu/CLionProjects/c++_practice/part2_practice.cpp" "C:/Users/deblu/CLionProjects/c++_practice/cmake-build-release/CMakeFiles/c++_practice.dir/part2_practice.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

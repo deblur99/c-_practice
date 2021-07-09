@@ -75,22 +75,9 @@ include CMakeFiles/c++_practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c++_practice.dir/flags.make
 
-CMakeFiles/c++_practice.dir/part1_practice.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
-CMakeFiles/c++_practice.dir/part1_practice.cpp.obj: ../part1_practice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c++_practice.dir/part1_practice.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\part1_practice.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\part1_practice.cpp
-
-CMakeFiles/c++_practice.dir/part1_practice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c++_practice.dir/part1_practice.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\deblu\CLionProjects\c++_practice\part1_practice.cpp > CMakeFiles\c++_practice.dir\part1_practice.cpp.i
-
-CMakeFiles/c++_practice.dir/part1_practice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/part1_practice.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\part1_practice.cpp -o CMakeFiles\c++_practice.dir\part1_practice.cpp.s
-
 CMakeFiles/c++_practice.dir/main.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
 CMakeFiles/c++_practice.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c++_practice.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/c++_practice.dir/main.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\main.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\main.cpp
 
 CMakeFiles/c++_practice.dir/main.cpp.i: cmake_force
@@ -101,51 +88,34 @@ CMakeFiles/c++_practice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\main.cpp -o CMakeFiles\c++_practice.dir\main.cpp.s
 
-CMakeFiles/c++_practice.dir/part2_practice.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
-CMakeFiles/c++_practice.dir/part2_practice.cpp.obj: ../part2_practice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c++_practice.dir/part2_practice.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\part2_practice.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\part2_practice.cpp
+CMakeFiles/c++_practice.dir/Ram.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
+CMakeFiles/c++_practice.dir/Ram.cpp.obj: ../Ram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c++_practice.dir/Ram.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\Ram.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\Ram.cpp
 
-CMakeFiles/c++_practice.dir/part2_practice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c++_practice.dir/part2_practice.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\deblu\CLionProjects\c++_practice\part2_practice.cpp > CMakeFiles\c++_practice.dir\part2_practice.cpp.i
+CMakeFiles/c++_practice.dir/Ram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c++_practice.dir/Ram.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\deblu\CLionProjects\c++_practice\Ram.cpp > CMakeFiles\c++_practice.dir\Ram.cpp.i
 
-CMakeFiles/c++_practice.dir/part2_practice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/part2_practice.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\part2_practice.cpp -o CMakeFiles\c++_practice.dir\part2_practice.cpp.s
-
-CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
-CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj: ../eng_histogram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\eng_histogram.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\eng_histogram.cpp
-
-CMakeFiles/c++_practice.dir/eng_histogram.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c++_practice.dir/eng_histogram.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\deblu\CLionProjects\c++_practice\eng_histogram.cpp > CMakeFiles\c++_practice.dir\eng_histogram.cpp.i
-
-CMakeFiles/c++_practice.dir/eng_histogram.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/eng_histogram.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\eng_histogram.cpp -o CMakeFiles\c++_practice.dir\eng_histogram.cpp.s
+CMakeFiles/c++_practice.dir/Ram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/Ram.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\Ram.cpp -o CMakeFiles\c++_practice.dir\Ram.cpp.s
 
 # Object files for target c++_practice
 c_______practice_OBJECTS = \
-"CMakeFiles/c++_practice.dir/part1_practice.cpp.obj" \
 "CMakeFiles/c++_practice.dir/main.cpp.obj" \
-"CMakeFiles/c++_practice.dir/part2_practice.cpp.obj" \
-"CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj"
+"CMakeFiles/c++_practice.dir/Ram.cpp.obj"
 
 # External object files for target c++_practice
 c_______practice_EXTERNAL_OBJECTS =
 
-c++_practice.exe: CMakeFiles/c++_practice.dir/part1_practice.cpp.obj
 c++_practice.exe: CMakeFiles/c++_practice.dir/main.cpp.obj
-c++_practice.exe: CMakeFiles/c++_practice.dir/part2_practice.cpp.obj
-c++_practice.exe: CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj
+c++_practice.exe: CMakeFiles/c++_practice.dir/Ram.cpp.obj
 c++_practice.exe: CMakeFiles/c++_practice.dir/build.make
 c++_practice.exe: CMakeFiles/c++_practice.dir/linklibs.rsp
 c++_practice.exe: CMakeFiles/c++_practice.dir/objects1.rsp
 c++_practice.exe: CMakeFiles/c++_practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable c++_practice.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable c++_practice.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\c++_practice.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
