@@ -23,7 +23,7 @@ bool histogram() {
         // 따라서 찾았을 때 true가 되려면 두 개를 비교하여 다른 값이 나올 때 true가 나오게 하면 된다.
         if (line.find(';') != string::npos) { // passage.txt 파일에서 세미콜론이 있는 부분까지 처리
             isEnd = true;
-        } else
+        }
 
         // count alphabets in each letter of the line
         for (int i = 0; i < line.length(); i++) {
