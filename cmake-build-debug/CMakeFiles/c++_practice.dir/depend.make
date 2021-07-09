@@ -4,6 +4,5 @@
 CMakeFiles/c++_practice.dir/Ram.cpp.obj: ../Ram.cpp
 CMakeFiles/c++_practice.dir/Ram.cpp.obj: ../Ram.h
 
-CMakeFiles/c++_practice.dir/main.cpp.obj: ../Ram.h
 CMakeFiles/c++_practice.dir/main.cpp.obj: ../main.cpp
 

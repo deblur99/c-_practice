@@ -3,15 +3,33 @@
 //
 
 #include <iostream>
-#include "Ram.h"
+using namespace std;
 
 int main() {
-    Ram ram;
-    ram.write(100, 20);
-    ram.write(101, 30);
-    char res = ram.read(100) + ram.read(101);
-    ram.write(102, res);
-    std::cout << "102 번지의 값 = " << (int)ram.read(102) << std::endl;
+    cout << "Enter the number of integers to input";
+    int n;
+    cin >> n;
+    if (n <= 0) return 0;
+    int *p = new int[n]; // 동적 배열 생성
+    if (!p) {
+        cout << "Unable to allocate memory";
+        return 0;
+    }
+
+    for (int i = 0; i < n; i++) {
+        cout << i+1 << "번째 정수: ";
+        cin >> p[i]; // 배열에 요소 입력
+    }
+
+    int sum = 0;
+
+    for (int i = 0; i < n; i++) {
+        sum += p[i];
+    }
+
+    cout << "평균: " << sum / n << endl;
+
+    delete [] p; // 동적 배열 해제할 때는 delete []를 사용한다.
 
     return 0;
 }
