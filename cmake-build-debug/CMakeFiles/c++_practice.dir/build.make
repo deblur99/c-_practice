@@ -114,25 +114,25 @@ CMakeFiles/c++_practice.dir/part2_practice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/part2_practice.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\part2_practice.cpp -o CMakeFiles\c++_practice.dir\part2_practice.cpp.s
 
-CMakeFiles/c++_practice.dir/Player.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
-CMakeFiles/c++_practice.dir/Player.cpp.obj: ../Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c++_practice.dir/Player.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\Player.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\Player.cpp
+CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
+CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj: ../eng_histogram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\eng_histogram.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\eng_histogram.cpp
 
-CMakeFiles/c++_practice.dir/Player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c++_practice.dir/Player.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\deblu\CLionProjects\c++_practice\Player.cpp > CMakeFiles\c++_practice.dir\Player.cpp.i
+CMakeFiles/c++_practice.dir/eng_histogram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c++_practice.dir/eng_histogram.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\deblu\CLionProjects\c++_practice\eng_histogram.cpp > CMakeFiles\c++_practice.dir\eng_histogram.cpp.i
 
-CMakeFiles/c++_practice.dir/Player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/Player.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\Player.cpp -o CMakeFiles\c++_practice.dir\Player.cpp.s
+CMakeFiles/c++_practice.dir/eng_histogram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/eng_histogram.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\eng_histogram.cpp -o CMakeFiles\c++_practice.dir\eng_histogram.cpp.s
 
 # Object files for target c++_practice
 c_______practice_OBJECTS = \
 "CMakeFiles/c++_practice.dir/part1_practice.cpp.obj" \
 "CMakeFiles/c++_practice.dir/main.cpp.obj" \
 "CMakeFiles/c++_practice.dir/part2_practice.cpp.obj" \
-"CMakeFiles/c++_practice.dir/Player.cpp.obj"
+"CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj"
 
 # External object files for target c++_practice
 c_______practice_EXTERNAL_OBJECTS =
@@ -140,7 +140,7 @@ c_______practice_EXTERNAL_OBJECTS =
 c++_practice.exe: CMakeFiles/c++_practice.dir/part1_practice.cpp.obj
 c++_practice.exe: CMakeFiles/c++_practice.dir/main.cpp.obj
 c++_practice.exe: CMakeFiles/c++_practice.dir/part2_practice.cpp.obj
-c++_practice.exe: CMakeFiles/c++_practice.dir/Player.cpp.obj
+c++_practice.exe: CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj
 c++_practice.exe: CMakeFiles/c++_practice.dir/build.make
 c++_practice.exe: CMakeFiles/c++_practice.dir/linklibs.rsp
 c++_practice.exe: CMakeFiles/c++_practice.dir/objects1.rsp

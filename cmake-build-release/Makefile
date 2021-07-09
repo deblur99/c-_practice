@@ -141,32 +141,32 @@ c++_practice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/build
 .PHONY : c++_practice/fast
 
-Player.obj: Player.cpp.obj
+eng_histogram.obj: eng_histogram.cpp.obj
 
-.PHONY : Player.obj
+.PHONY : eng_histogram.obj
 
 # target to build an object file
-Player.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Player.cpp.obj
-.PHONY : Player.cpp.obj
+eng_histogram.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/eng_histogram.cpp.obj
+.PHONY : eng_histogram.cpp.obj
 
-Player.i: Player.cpp.i
+eng_histogram.i: eng_histogram.cpp.i
 
-.PHONY : Player.i
+.PHONY : eng_histogram.i
 
 # target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Player.cpp.i
-.PHONY : Player.cpp.i
+eng_histogram.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/eng_histogram.cpp.i
+.PHONY : eng_histogram.cpp.i
 
-Player.s: Player.cpp.s
+eng_histogram.s: eng_histogram.cpp.s
 
-.PHONY : Player.s
+.PHONY : eng_histogram.s
 
 # target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Player.cpp.s
-.PHONY : Player.cpp.s
+eng_histogram.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/eng_histogram.cpp.s
+.PHONY : eng_histogram.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -258,9 +258,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c++_practice
-	@echo ... Player.obj
-	@echo ... Player.i
-	@echo ... Player.s
+	@echo ... eng_histogram.obj
+	@echo ... eng_histogram.i
+	@echo ... eng_histogram.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

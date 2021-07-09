@@ -6,39 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/deblu/CLionProjects/c++_practice/Player.cpp
+C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.cpp
+eng_histogram.h
+C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.h
+
+C:/Users/deblu/CLionProjects/c++_practice/eng_histogram.h
 iostream
 -
-Player.h
-C:/Users/deblu/CLionProjects/c++_practice/Player.h
-
-C:/Users/deblu/CLionProjects/c++_practice/Player.h
-string
--
-
-C:/Users/deblu/CLionProjects/c++_practice/main.cpp
-iostream
--
-string
--
-cstring
--
-part1_practice.h
-C:/Users/deblu/CLionProjects/c++_practice/part1_practice.h
-Player.h
-C:/Users/deblu/CLionProjects/c++_practice/Player.h
-
-C:/Users/deblu/CLionProjects/c++_practice/part1_practice.h
-iostream
--
-string
+fstream
 -
 array
 -
-vector
--
-cfloat
--
-functional
+string
 -
 
