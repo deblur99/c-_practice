@@ -141,6 +141,33 @@ c++_practice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/build
 .PHONY : c++_practice/fast
 
+MorseCode.obj: MorseCode.cpp.obj
+
+.PHONY : MorseCode.obj
+
+# target to build an object file
+MorseCode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/MorseCode.cpp.obj
+.PHONY : MorseCode.cpp.obj
+
+MorseCode.i: MorseCode.cpp.i
+
+.PHONY : MorseCode.i
+
+# target to preprocess a source file
+MorseCode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/MorseCode.cpp.i
+.PHONY : MorseCode.cpp.i
+
+MorseCode.s: MorseCode.cpp.s
+
+.PHONY : MorseCode.s
+
+# target to generate assembly for a file
+MorseCode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/MorseCode.cpp.s
+.PHONY : MorseCode.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c++_practice
+	@echo ... MorseCode.obj
+	@echo ... MorseCode.i
+	@echo ... MorseCode.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

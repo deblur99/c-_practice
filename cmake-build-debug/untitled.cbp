@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/MorseCode.cpp">
+			<Option target="c++_practice"/>
+		</Unit>
+		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/MorseCode.h">
+			<Option target="c++_practice"/>
+		</Unit>
 		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/main.cpp">
 			<Option target="c++_practice"/>
 		</Unit>
