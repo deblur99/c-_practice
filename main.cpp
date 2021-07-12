@@ -3,30 +3,50 @@
 //
 
 #include <iostream>
+#include <string>
 using namespace std;
 
-class Circle {
-    int radius;
+class Person {
+    string name;
+    int id;
 public:
-    Circle() {}
-    Circle(int r) { radius = r; }
-    Circle(const Circle &c);
-    double getArea();
+    Person(int id, const string name);
+    Person(const Person& person);
+    void changeName(const string name);
+    void show();
 };
 
-Circle::Circle(const Circle &c) {
-    this->radius = c.radius;
-    cout << "복사 생성자 실행 radius = " << radius << endl;
+Person::Person(int id, const string name) {
+    this->id = id;
+    this->name = name;
 }
 
-inline double Circle::getArea() {
-    return 3.14*radius*radius;
+Person::Person(const Person &person) {
+    this->id = person.id;
+    this->name = person.name;
+    cout << "복사 생성자 실행, 원본 객체의 이름 : " << this->name << endl;
+}
+
+void Person::changeName(const string name) {
+    this->name = name;
+}
+
+void Person::show() {
+    cout << id << ", " << name << endl;
 }
 
 int main() {
-    Circle src(30);
-    Circle desc(src);
+    Person yum(20, "yum");
+    Person jack(yum);
 
-    cout << "원본 면적 : " << src.getArea() << endl;
-    cout << "사본 면적 : " << desc.getArea() << endl;
+    cout << "jack 객체 생성 직후 ----" << endl;
+    yum.show();
+    jack.show();
+
+    jack.changeName("hyejin");
+    cout << "이름 변경한 후 ----" << endl;
+    yum.show();
+    jack.show();
+
+    return 0;
 }
