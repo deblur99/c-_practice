@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/Ram.cpp">
-			<Option target="c++_practice"/>
-		</Unit>
-		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/Ram.h">
-			<Option target="c++_practice"/>
-		</Unit>
 		<Unit filename="C:/Users/deblu/CLionProjects/c++_practice/main.cpp">
 			<Option target="c++_practice"/>
 		</Unit>

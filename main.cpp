@@ -5,30 +5,28 @@
 #include <iostream>
 using namespace std;
 
-int arr[5] = {0,1,3,5,7};
+class Circle {
+    int radius;
+public:
+    Circle() {}
+    Circle(int r) { radius = r; }
+    Circle(const Circle &c);
+    double getArea();
+};
 
-int& f(int n) {
-    return arr[n];
+Circle::Circle(const Circle &c) {
+    this->radius = c.radius;
+    cout << "복사 생성자 실행 radius = " << radius << endl;
 }
 
-void print() {
-    for (int e : arr) cout << e << " ";
-    cout << endl;
+inline double Circle::getArea() {
+    return 3.14*radius*radius;
 }
 
 int main() {
-    f(0) = 100; // 1
-    print();
+    Circle src(30);
+    Circle desc(src);
 
-    int sum = 0; // 2
-    for (int i = 1; i < 5; i++) {
-        sum += f(i);
-    }
-    f(0) = sum;
-    print();
-
-    int &v = f(2); v++; // 3
-    print();
-
-    // 결과: 참조로 연산하면 연산은 모든 범위에서 반영된다
+    cout << "원본 면적 : " << src.getArea() << endl;
+    cout << "사본 면적 : " << desc.getArea() << endl;
 }

@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c++_practice main.cpp Ram.h Ram.cpp)
+add_executable(c++_practice main.cpp)

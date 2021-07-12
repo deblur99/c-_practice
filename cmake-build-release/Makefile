@@ -141,33 +141,6 @@ c++_practice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/build
 .PHONY : c++_practice/fast
 
-Ram.obj: Ram.cpp.obj
-
-.PHONY : Ram.obj
-
-# target to build an object file
-Ram.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Ram.cpp.obj
-.PHONY : Ram.cpp.obj
-
-Ram.i: Ram.cpp.i
-
-.PHONY : Ram.i
-
-# target to preprocess a source file
-Ram.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Ram.cpp.i
-.PHONY : Ram.cpp.i
-
-Ram.s: Ram.cpp.s
-
-.PHONY : Ram.s
-
-# target to generate assembly for a file
-Ram.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Ram.cpp.s
-.PHONY : Ram.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -204,9 +177,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c++_practice
-	@echo ... Ram.obj
-	@echo ... Ram.i
-	@echo ... Ram.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
