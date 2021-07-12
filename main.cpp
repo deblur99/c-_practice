@@ -5,24 +5,30 @@
 #include <iostream>
 using namespace std;
 
-class Circle {
-    int radius;
-public:
-    Circle() { radius = 1; }
-    Circle(int radius) { this->radius = radius; }
-    void setRadius(int radius) { this->radius = radius; }
-    double getArea() { return 3.14 * radius * radius; }
-};
+int arr[5] = {0,1,3,5,7};
 
-void readRadius(Circle &c) {
-    int r = 0;
-    cout << "정수 값으로 반지름을 입력하세요 >>";
-    cin >> r;
-    c.setRadius(r);
+int& f(int n) {
+    return arr[n];
+}
+
+void print() {
+    for (int e : arr) cout << e << " ";
+    cout << endl;
 }
 
 int main() {
-    Circle donut;
-    readRadius(donut);
-    cout << "donut의 면적 = " << donut.getArea() << endl;
+    f(0) = 100; // 1
+    print();
+
+    int sum = 0; // 2
+    for (int i = 1; i < 5; i++) {
+        sum += f(i);
+    }
+    f(0) = sum;
+    print();
+
+    int &v = f(2); v++; // 3
+    print();
+
+    // 결과: 참조로 연산하면 연산은 모든 범위에서 반영된다
 }
