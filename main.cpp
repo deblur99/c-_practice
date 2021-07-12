@@ -5,43 +5,24 @@
 #include <iostream>
 using namespace std;
 
-class Foo {
-private:
-    int n;
+class Circle {
+    int radius;
 public:
-    Foo() {
-        n = 1;
-        cout << "생성자 실행 n = " << n << endl;
-    }
-    Foo(int n) {
-        this->n = n;
-        cout << "생성자 실행 n = " << n << endl;
-    }
-    ~Foo() {
-        cout << "소멸자 실행 n = " << n << endl;
-    }
-    inline void setNumber(int n) {
-        this->n += n;
-    }
-    inline int getNumber() {
-        return this->n;
-    }
+    Circle() { radius = 1; }
+    Circle(int radius) { this->radius = radius; }
+    void setRadius(int radius) { this->radius = radius; }
+    double getArea() { return 3.14 * radius * radius; }
 };
 
-Foo getCircle() {
-    Foo temp(30);
-    return temp;
+void readRadius(Circle &c) {
+    int r = 0;
+    cout << "정수 값으로 반지름을 입력하세요 >>";
+    cin >> r;
+    c.setRadius(r);
 }
 
 int main() {
-    Foo ins(10);
-    Foo tmp = getCircle();
-    Foo &ref = tmp;
-    cout << tmp.getNumber() << endl;
-    tmp.setNumber(10);
-
-    if (tmp.getNumber() == ref.getNumber())
-        cout << "Equal" << endl;
-
-    return 0;
+    Circle donut;
+    readRadius(donut);
+    cout << "donut의 면적 = " << donut.getArea() << endl;
 }
