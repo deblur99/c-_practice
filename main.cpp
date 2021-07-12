@@ -5,31 +5,43 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    cout << "Enter the number of integers to input";
+class Foo {
+private:
     int n;
-    cin >> n;
-    if (n <= 0) return 0;
-    int *p = new int[n]; // 동적 배열 생성
-    if (!p) {
-        cout << "Unable to allocate memory";
-        return 0;
+public:
+    Foo() {
+        n = 1;
+        cout << "생성자 실행 n = " << n << endl;
     }
-
-    for (int i = 0; i < n; i++) {
-        cout << i+1 << "번째 정수: ";
-        cin >> p[i]; // 배열에 요소 입력
+    Foo(int n) {
+        this->n = n;
+        cout << "생성자 실행 n = " << n << endl;
     }
-
-    int sum = 0;
-
-    for (int i = 0; i < n; i++) {
-        sum += p[i];
+    ~Foo() {
+        cout << "소멸자 실행 n = " << n << endl;
     }
+    inline void setNumber(int n) {
+        this->n += n;
+    }
+    inline int getNumber() {
+        return this->n;
+    }
+};
 
-    cout << "평균: " << sum / n << endl;
+Foo getCircle() {
+    Foo temp(30);
+    return temp;
+}
 
-    delete [] p; // 동적 배열 해제할 때는 delete []를 사용한다.
+int main() {
+    Foo ins(10);
+    Foo tmp = getCircle();
+    Foo &ref = tmp;
+    cout << tmp.getNumber() << endl;
+    tmp.setNumber(10);
+
+    if (tmp.getNumber() == ref.getNumber())
+        cout << "Equal" << endl;
 
     return 0;
 }
