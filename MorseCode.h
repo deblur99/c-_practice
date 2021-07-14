@@ -27,7 +27,7 @@
 #define EQUAL '='
 
 enum _Exception {
-    TypeError = -1, IntegerError, NotException
+    TypeException = -2, IntegerException, ExitException, KeepException
 };
 
 class MorseCode {

@@ -63,11 +63,11 @@ int MorseCode::getDecision() {
 
     // 입력받은 문자열의 길이가 1보다 긴 경우 예외 발생
     if (receiver.length() > 1)
-        return TypeError;
+        return TypeException;
 
     // 문자열의 첫째 자리가 숫자가 아니면 예외 발생
     if (!isdigit(receiver[0]))
-        return TypeError;
+        return TypeException;
 
         // 문자열의 첫째 자리가 숫자이므로 int 형 변환 후 decision에 저장
     else {
@@ -75,7 +75,7 @@ int MorseCode::getDecision() {
 
         // decision이 1에서 4 사이가 아니면 예외 발생
         if (decision < 1 || decision > 4)
-            return IntegerError;
+            return IntegerException;
     }
 
     return decision;
@@ -93,13 +93,13 @@ int MorseCode::controller() {
     decision = getDecision();
 
     // 정수가 아닌 값을 입력한 경우, false 값 반환
-    if (decision == TypeError) return TypeError;
+    if (decision == TypeException) return TypeException;
 
     // 정수값이 1에서 4를 제외한 값이 입력된 경우, false 값 반환
-    if (decision == IntegerError) return IntegerError;
+    if (decision == IntegerException) return IntegerException;
 
     // decision이 4인 경우일 때 함수 종료
-    if (decision == 4) return NotException;
+    if (decision == 4) return ExitException;
 
     switch (decision) {
         case 1:
@@ -113,6 +113,7 @@ int MorseCode::controller() {
 
         case 2:
             std::cout << "아래에 모스 부호를 입력하세요. 영문 텍스트로 바꿉니다." << std::endl;
+            std::getline(std::cin, myMorse);
 
             MorseCode::morse2Text(myMorse, myText);
             std::cout << myText << std::endl;
@@ -132,7 +133,7 @@ int MorseCode::controller() {
             break;
     }
 
-    return NotException;
+    return KeepException;
 }
 
 void MorseCode::text2Morse(std::string text, std::string &morse) {
