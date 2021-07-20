@@ -163,7 +163,7 @@ void MorseCode::text2Morse(std::string text, std::string &morse) {
         }
 
         else if (isspace(text[i])) {
-            morse += "  "; // 원본에서 공백 문제는 모스 부호에서 공백 3칸 추가를 의미
+            morse += " "; // 원본에서 공백 문제는 모스 부호에서 공백 3칸 추가를 의미
                             // 단, 공백을 포함한 모든 문자를 추가 시 공백 1칸을 추가하기에, 여기서는 2칸만 추가함
         }
 
@@ -206,9 +206,12 @@ void MorseCode::text2Morse(std::string text, std::string &morse) {
 }
 
 bool MorseCode::morse2Text(std::string morse, std::string& text) {
-    // 변수 선언
+
+    // 변수 선언 및 초기화
     int count = 0;  // 공백 개수를 나타냄
+    text = "";
     std::string buffer = ""; // 공백 앞까지 공백이 아닌 문자들을 저장
+    morse += " ";
 
     // morse의 앞부분부터 순차적으로 검사
     for (int i = 0; i < morse.length(); i++) {
@@ -224,7 +227,7 @@ bool MorseCode::morse2Text(std::string morse, std::string& text) {
             count++;
 
             // 공백이 연속으로 3개 있으면 텍스트에서 공백을 의미하므로 공백을 쓰고 count 초기화
-            if (count == 3) {
+            if (count >= 2) {
                 text += " ";
                 count = 0;
                 continue;

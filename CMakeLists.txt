@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c++_practice main.cpp MorseCode.h MorseCode.cpp)
+add_executable(c++_practice main.cpp Board.h Board.cpp)

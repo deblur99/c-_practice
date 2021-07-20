@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c++_practice.dir/MorseCode.cpp.obj"
+  "CMakeFiles/c++_practice.dir/Board.cpp.obj"
   "CMakeFiles/c++_practice.dir/main.cpp.obj"
   "c++_practice.exe"
   "c++_practice.exe.manifest"

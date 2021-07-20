@@ -141,32 +141,32 @@ c++_practice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/build
 .PHONY : c++_practice/fast
 
-MorseCode.obj: MorseCode.cpp.obj
+Board.obj: Board.cpp.obj
 
-.PHONY : MorseCode.obj
+.PHONY : Board.obj
 
 # target to build an object file
-MorseCode.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/MorseCode.cpp.obj
-.PHONY : MorseCode.cpp.obj
+Board.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Board.cpp.obj
+.PHONY : Board.cpp.obj
 
-MorseCode.i: MorseCode.cpp.i
+Board.i: Board.cpp.i
 
-.PHONY : MorseCode.i
+.PHONY : Board.i
 
 # target to preprocess a source file
-MorseCode.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/MorseCode.cpp.i
-.PHONY : MorseCode.cpp.i
+Board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Board.cpp.i
+.PHONY : Board.cpp.i
 
-MorseCode.s: MorseCode.cpp.s
+Board.s: Board.cpp.s
 
-.PHONY : MorseCode.s
+.PHONY : Board.s
 
 # target to generate assembly for a file
-MorseCode.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/MorseCode.cpp.s
-.PHONY : MorseCode.cpp.s
+Board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Board.cpp.s
+.PHONY : Board.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -204,9 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c++_practice
-	@echo ... MorseCode.obj
-	@echo ... MorseCode.i
-	@echo ... MorseCode.s
+	@echo ... Board.obj
+	@echo ... Board.i
+	@echo ... Board.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
