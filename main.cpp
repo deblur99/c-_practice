@@ -3,32 +3,48 @@
 //
 
 #include <iostream>
+#include <cstring>
 using namespace std;
 
-// 전방선언
-class Rect;
+class Money; // 전방선언
 
-class RectManager {
+class overloadingEx {
+    string s1;
 public:
-    bool equals(Rect r, Rect s);
+    overloadingEx(string myString) {
+        s1 = myString;
+    }
+
+    int operator + (string s2) {
+        return s1.length() + s2.length();
+    }
 };
 
-class Rect {
-    int width, height;
-public:
-    Rect() { Rect(10, 20); } // 위임생성자
-    Rect(int width, int height) : width(width), height(height) {}
-    friend RectManager;
-};
+Money operator + (Money m1, Money m2);
 
-bool RectManager::equals(Rect r, Rect s) {
-    if (r.width == s.width && r.height == s.height) return true;
-    else return false;
-}
+class Money {
+    int amount;
+public:
+    Money(int amount) {
+        this->amount = amount;
+    }
+    friend Money operator + (Money m1, Money m2) {
+        Money res(m1.amount + m2.amount);
+        return res;
+    }
+    void showMoney() {
+        cout << amount << endl;
+    }
+};
 
 int main() {
-    Rect a(3, 4), b(3, 4);
-    RectManager manager;
-    if (manager.equals(a, b)) cout << "equal" << endl;
-    else cout << "not equal" << endl;
+    overloadingEx myString("Hello ");
+    int result = myString + "World!";
+    cout << result << endl;
+
+    Money m1(10), m2(20);
+    Money m3 = m1 + m2;
+    m3.showMoney();
+
+    return 0;
 }
