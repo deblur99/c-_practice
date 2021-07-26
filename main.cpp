@@ -3,48 +3,59 @@
 //
 
 #include <iostream>
-#include <cstring>
 using namespace std;
 
-class Money; // 전방선언
-
-class overloadingEx {
-    string s1;
+class Power {
+    int kick;
+    int punch;
 public:
-    overloadingEx(string myString) {
-        s1 = myString;
-    }
-
-    int operator + (string s2) {
-        return s1.length() + s2.length();
-    }
+    Power(int kick = 0, int punch = 0)
+        : kick(kick), punch(punch) {};
+    void show();
+    Power operator + (Power op);
+    Power operator + (int n);
+    Power& operator ++ ();
+    bool operator ! ();
 };
 
-Money operator + (Money m1, Money m2);
+void Power::show() {
+    cout << "kick : " << kick << ", punch : " << punch << endl;
+    return;
+}
 
-class Money {
-    int amount;
-public:
-    Money(int amount) {
-        this->amount = amount;
-    }
-    friend Money operator + (Money m1, Money m2) {
-        Money res(m1.amount + m2.amount);
-        return res;
-    }
-    void showMoney() {
-        cout << amount << endl;
-    }
-};
+Power Power::operator+(Power op) {
+    Power ret;
+    ret.kick = kick + op.kick;
+    ret.punch = punch + op.punch;
+    return ret;
+}
+
+Power Power::operator+(int n) {
+    Power ret;
+    ret.kick = kick + n;
+    ret.punch = punch + n;
+    return ret;
+}
+
+Power& Power::operator ++ () {
+    kick++; punch++;
+    return *this; // 객체의 this 포인터의 역참조를 반환
+}
+
+bool Power::operator ! () {
+    return kick == 0 && punch == 0;
+}
 
 int main() {
-    overloadingEx myString("Hello ");
-    int result = myString + "World!";
-    cout << result << endl;
+    Power a(3, 5), b(0, 0), c(4, 9);
+    ++a;
+    a.show();
 
-    Money m1(10), m2(20);
-    Money m3 = m1 + m2;
-    m3.showMoney();
+    if (!b) cout << "power of b is 0" << endl;
+    else cout << "power of b is not 0" << endl;
+
+    if (!c) cout << "power of c is 0" << endl;
+    else cout << "power of c is not 0" << endl;
 
     return 0;
 }
