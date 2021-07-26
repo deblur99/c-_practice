@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(c++_practice main.cpp Board.h Board.cpp)
+add_executable(c++_practice main.cpp Book.h Book.cpp)

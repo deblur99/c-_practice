@@ -88,29 +88,29 @@ CMakeFiles/c++_practice.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\main.cpp -o CMakeFiles\c++_practice.dir\main.cpp.s
 
-CMakeFiles/c++_practice.dir/Board.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
-CMakeFiles/c++_practice.dir/Board.cpp.obj: ../Board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c++_practice.dir/Board.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\Board.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\Board.cpp
+CMakeFiles/c++_practice.dir/Book.cpp.obj: CMakeFiles/c++_practice.dir/flags.make
+CMakeFiles/c++_practice.dir/Book.cpp.obj: ../Book.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\deblu\CLionProjects\c++_practice\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c++_practice.dir/Book.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\c++_practice.dir\Book.cpp.obj -c C:\Users\deblu\CLionProjects\c++_practice\Book.cpp
 
-CMakeFiles/c++_practice.dir/Board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c++_practice.dir/Board.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\deblu\CLionProjects\c++_practice\Board.cpp > CMakeFiles\c++_practice.dir\Board.cpp.i
+CMakeFiles/c++_practice.dir/Book.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c++_practice.dir/Book.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\deblu\CLionProjects\c++_practice\Book.cpp > CMakeFiles\c++_practice.dir\Book.cpp.i
 
-CMakeFiles/c++_practice.dir/Board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/Board.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\Board.cpp -o CMakeFiles\c++_practice.dir\Board.cpp.s
+CMakeFiles/c++_practice.dir/Book.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c++_practice.dir/Book.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\deblu\CLionProjects\c++_practice\Book.cpp -o CMakeFiles\c++_practice.dir\Book.cpp.s
 
 # Object files for target c++_practice
 c_______practice_OBJECTS = \
 "CMakeFiles/c++_practice.dir/main.cpp.obj" \
-"CMakeFiles/c++_practice.dir/Board.cpp.obj"
+"CMakeFiles/c++_practice.dir/Book.cpp.obj"
 
 # External object files for target c++_practice
 c_______practice_EXTERNAL_OBJECTS =
 
 c++_practice.exe: CMakeFiles/c++_practice.dir/main.cpp.obj
-c++_practice.exe: CMakeFiles/c++_practice.dir/Board.cpp.obj
+c++_practice.exe: CMakeFiles/c++_practice.dir/Book.cpp.obj
 c++_practice.exe: CMakeFiles/c++_practice.dir/build.make
 c++_practice.exe: CMakeFiles/c++_practice.dir/linklibs.rsp
 c++_practice.exe: CMakeFiles/c++_practice.dir/objects1.rsp

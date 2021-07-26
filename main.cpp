@@ -2,52 +2,13 @@
 // Created by 한현민 on 2021-06-30.
 //
 
-#include <iostream>
-using namespace std;
-
-class Power {
-    int kick;
-    int punch;
-public:
-    Power(int kick = 0, int punch = 0)
-        : kick(kick), punch(punch) {};
-    void show();
-    friend Power& operator ++ (Power & op);
-    friend Power& operator ++ (Power & op, int x);
-    Power& operator << (int x);
-};
-
-void Power::show() {
-    cout << "kick : " << kick << ", punch : " << punch << endl;
-    return;
-}
-
-Power& operator ++ (Power & op) {
-    op.punch++;
-    op.kick++;
-    return op;
-}
-
-Power& operator ++ (Power & op, int x) {
-    op.punch++;
-    op.kick++;
-    return op;
-}
-
-Power& Power::operator << (int x) {
-    kick += x;
-    punch += x;
-    return *this;
-}
+#include "Book.h"
 
 int main() {
-    Power a(3, 5);
-
-    a.show();
-
-    a << 5 << 8 << 6;
-
-    a.show();
+    Book a("명품 C++", 30000, 500), b("고품 C++", 30000, 500);
+    if (a == 30000) cout << "정가 30000원" << endl;
+    if (a == "명품 C++") cout << "명품 C++입니다." << endl;
+    if (a == b) cout << "두 책이 같은 책입니다." << endl;
 
     return 0;
 }

@@ -6,19 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/deblu/CLionProjects/c++_practice/Board.cpp
-Board.h
-C:/Users/deblu/CLionProjects/c++_practice/Board.h
-
-C:/Users/deblu/CLionProjects/c++_practice/Board.h
+C:/Users/deblu/CLionProjects/c++_practice/Book.h
 iostream
 -
 string
 -
-vector
--
 
 C:/Users/deblu/CLionProjects/c++_practice/main.cpp
-iostream
--
+Book.h
+C:/Users/deblu/CLionProjects/c++_practice/Book.h
 

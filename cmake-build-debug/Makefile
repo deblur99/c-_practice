@@ -141,32 +141,32 @@ c++_practice/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/build
 .PHONY : c++_practice/fast
 
-Board.obj: Board.cpp.obj
+Book.obj: Book.cpp.obj
 
-.PHONY : Board.obj
+.PHONY : Book.obj
 
 # target to build an object file
-Board.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Board.cpp.obj
-.PHONY : Board.cpp.obj
+Book.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Book.cpp.obj
+.PHONY : Book.cpp.obj
 
-Board.i: Board.cpp.i
+Book.i: Book.cpp.i
 
-.PHONY : Board.i
+.PHONY : Book.i
 
 # target to preprocess a source file
-Board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Board.cpp.i
-.PHONY : Board.cpp.i
+Book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Book.cpp.i
+.PHONY : Book.cpp.i
 
-Board.s: Board.cpp.s
+Book.s: Book.cpp.s
 
-.PHONY : Board.s
+.PHONY : Book.s
 
 # target to generate assembly for a file
-Board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Board.cpp.s
-.PHONY : Board.cpp.s
+Book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\c++_practice.dir\build.make CMakeFiles/c++_practice.dir/Book.cpp.s
+.PHONY : Book.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -204,9 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... c++_practice
-	@echo ... Board.obj
-	@echo ... Board.i
-	@echo ... Board.s
+	@echo ... Book.obj
+	@echo ... Book.i
+	@echo ... Book.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
