@@ -12,10 +12,11 @@ public:
     Power(int kick = 0, int punch = 0)
         : kick(kick), punch(punch) {};
     void show();
-    Power operator + (Power op);
+    friend Power operator + (int op1, Power op2); // 외부 함수를 friend 함수로써 초대
     Power operator + (int n);
     Power& operator ++ ();
     bool operator ! ();
+    Power& operator -- (int x);
 };
 
 void Power::show() {
@@ -23,10 +24,10 @@ void Power::show() {
     return;
 }
 
-Power Power::operator+(Power op) {
+Power operator + (int op1, Power op2) {
     Power ret;
-    ret.kick = kick + op.kick;
-    ret.punch = punch + op.punch;
+    ret.kick = op1 + op2.kick;
+    ret.punch = op1 + op2.punch;
     return ret;
 }
 
@@ -46,16 +47,16 @@ bool Power::operator ! () {
     return kick == 0 && punch == 0;
 }
 
+Power& Power::operator -- (int x) {
+    kick--;
+    punch--;
+    return *this;
+}
+
 int main() {
-    Power a(3, 5), b(0, 0), c(4, 9);
-    ++a;
-    a.show();
-
-    if (!b) cout << "power of b is 0" << endl;
-    else cout << "power of b is not 0" << endl;
-
-    if (!c) cout << "power of c is 0" << endl;
-    else cout << "power of c is not 0" << endl;
+    Power a(3, 5);
+    Power b = 2 + a;
+    b.show();
 
     return 0;
 }
